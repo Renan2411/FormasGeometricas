@@ -104,8 +104,18 @@
 		# code...
 		break;
 		case 'HD':
-		# code...
-		break;
+	 		//Variáveis pegadas
+	 		$ar = $_POST["ar"];
+
+	 		//Variavéis de calculo
+	 		$area = 6 * $ar *$ar;
+	 		$volume = pow($ar, 3);
+	 		$perimetro = 12 * $ar;
+
+	 		echo "$area";
+	 		echo "<br>$volume";
+	 		echo "<br>$perimetro";
+	 		break;
 		case 'OD':
 		# code...
 		break;
