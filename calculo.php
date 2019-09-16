@@ -99,6 +99,28 @@
 		echo "<br>$volume";
 		echo "<br>$perimetro";
 		break;
+
+		case 'TD':
+		# code...
+		break;
+		case 'HD':
+		# code...
+		break;
+		case 'OD':
+		# code...
+		break;
+		case 'DD':
+		# code...
+		break;
+		case 'ID':
+		# code...
+		break;
+		case 'PL':
+		# code...
+		break;
+		case 'PM':
+		# code...
+		break;
 	}
 	?>
 </body>

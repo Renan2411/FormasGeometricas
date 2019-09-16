@@ -123,6 +123,36 @@
 		</article>
 	</section>
 
+	<section id="company6" class="content">
+		<article class="box">
+			<h2>Octaedro</h2>	 
+			<!-- Fromulário para ES -->
+			<form class="needs-validation" method="post" action="calculo.php"> 
+				<div class="row">
+
+					<div class="col-md-2 mb-3">
+						<label for="r">Aresta</label>
+						<input type="number" name="a" id="a"class="form-control" placeholder="Digite em cm">
+						<div class="invalid-feedback">
+							Obrigatório
+						</div>
+					</div>
+					
+					<div class="col-md-2 mb-3">
+						<label for="cal">Escolha o Cálculo</label>
+						<select class="custom-select d-block w-100" required name="cal" id="cal">
+							<option value="t">Todos</option>
+							<option value="p">Perímetro</option>
+							<option value="a">Área</option>
+							<option value="v">Volume</option>
+						</select>
+					</div>
+				</div>
+				<button class="btn btn-primary btn-lg" type="submit" name="bot" value="OD">Enviar</button>
+			</form>
+		</article>
+	</section>
+
 	<section id="service" class="content">
 		<article class="box">
 			<h2>Serviços</h2>	 
@@ -155,6 +185,13 @@
 				<li id="link-company"><a href="#company1">&nbsp;Esfera</a></li>
 				<li id="link-company"><a href="#company2">&nbsp;Pirâmide de Base Quadrangular</a></li>
 				<li id="link-company"><a href="#company3">&nbsp;Cilindro</a></li>
+				<li id="link-company"><a href="#company4">&nbsp;Tetraedro</a></li>
+				<li id="link-company"><a href="#company5">&nbsp;Hexaedro</a></li>
+				<li id="link-company"><a href="#company6">&nbsp;Octaedro</a></li>
+				<li id="link-company"><a href="#company7">&nbsp;Dodecaedro</a></li>
+				<li id="link-company"><a href="#company8">&nbsp;Icosaedro</a></li>
+				<li id="link-company"><a href="#company9">&nbsp;Poliedro L</a></li>
+				<li id="link-company"><a href="#company10">&nbsp;Poliedro Mais</a></li>
 				<li id="link-service"><a href="#service">&nbsp;Serviços</a></li>
 				<li id="link-contact"><a href="#contact">&nbsp;Contato</a></li>
 			</ul>
