@@ -15,9 +15,40 @@
 		</article>
 	</section>
 
-	<section id="company" class="content">
+	<section id="company1" class="content">
 		<article class="box">
-			<h2>Pirâmide de Base Quadrada</h2>	 
+			<h2>Esfera</h2>	 
+			<!-- Fromulário para ES -->
+			<form class="needs-validation" method="post" action="calculo.php"> 
+				<div class="row">
+
+					<div class="col-md-2 mb-3">
+						<label for="r">Raio da Esfera</label>
+						<input type="number" name="r" id="r"class="form-control" placeholder="Digite em cm">
+						<div class="invalid-feedback">
+							Obrigatório
+						</div>
+					</div>
+					
+					<div class="col-md-2 mb-3">
+						<label for="cal">Escolha o Cálculo</label>
+						<select class="custom-select d-block w-100" required name="cal" id="cal">
+							<option value="t">Todos</option>
+							<option value="p">Perímetro</option>
+							<option value="a">Área</option>
+							<option value="v">Volume</option>
+						</select>
+					</div>
+				</div>
+				<button class="btn btn-primary btn-lg" type="submit" name="bot" value="ES">Enviar</button>
+			</form>
+		</article>
+	</section>
+
+
+	<section id="company2" class="content">
+		<article class="box">
+			<h2>Pirâmide de Base Quadrangular</h2>	 
 			<!-- Fromulário para PQ -->
 			<form class="needs-validation" method="post" action="calculo.php"> 
 				<div class="row">
@@ -54,6 +85,44 @@
 		</article>
 	</section>
 
+		<section id="company3" class="content">
+		<article class="box">
+			<h2>Cilindro</h2>	 
+			<!-- Fromulário para CL -->
+			<form class="needs-validation" method="post" action="calculo.php"> 
+				<div class="row">
+
+					<div class="col-md-2 mb-3">
+						<label for="h">Altura do Cilindro</label>
+						<input type="number" min="0" name="h" id="h" class="form-control" placeholder="Digite em cm">
+						<div class="invalid-feedback">
+							Obrigatório
+						</div>
+					</div>
+
+					<div class="col-md-2 mb-3">
+						<label for="r">Raio do Cilindro</label>
+						<input type="number" name="r" id="r" min="0" class="form-control" placeholder="Digite em cm">
+						<div class="invalid-feedback">
+							Obrigatório
+						</div>
+					</div>
+					
+					<div class="col-md-2 mb-3">
+						<label for="cal">Escolha o Cálculo</label>
+						<select class="custom-select d-block w-100" required name="cal" id="cal">
+							<option value="t">Todos</option>
+							<option value="p">Perímetro</option>
+							<option value="a">Área</option>
+							<option value="v">Volume</option>
+						</select>
+					</div>
+				</div>
+				<button class="btn btn-primary btn-lg" type="submit" name="bot" value="CL">Enviar</button>
+			</form>
+		</article>
+	</section>
+
 	<section id="service" class="content">
 		<article class="box">
 			<h2>Serviços</h2>	 
@@ -82,8 +151,10 @@
 		<h1>Formas Geométricas</h1>
 		<nav>
 			<ul>
-				<li id="link-home"><a href="#home">&nbsp;Home </a></li>
-				<li id="link-company"><a href="#company">&nbsp;Pirâmide de Base Quadrada</a></li>
+				<li id="link-home"><a href="#home">&nbsp;Home</a></li>
+				<li id="link-company"><a href="#company1">&nbsp;Esfera</a></li>
+				<li id="link-company"><a href="#company2">&nbsp;Pirâmide de Base Quadrangular</a></li>
+				<li id="link-company"><a href="#company3">&nbsp;Cilindro</a></li>
 				<li id="link-service"><a href="#service">&nbsp;Serviços</a></li>
 				<li id="link-contact"><a href="#contact">&nbsp;Contato</a></li>
 			</ul>
