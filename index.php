@@ -123,6 +123,35 @@
 		</article>
 	</section>
 
+	<!--Para o Hexaedro -->
+	<section id="service" class="content">
+		<article class="box">
+			<h2>Hexaedro</h2>	 
+			<form class="needs-validation" action="calculo.php" method="post">
+				<div class="row">
+					<div class="col-md-2 mb-3">
+						<label for="ar">Valor da Aresta</label>
+						<input type="number" min="0" name="ar" id="ar" placeholder="digite em cm" class="form-control">
+						<div class="invalid-feedback">
+							Obrigatório
+						</div>
+					</div>
+
+					<div class="col-md-2 mb-3">
+						<label for="cal">Escolha</label>
+						<select class="custom-select d-block w-100" required name="cal" id="cal">
+							<option value="t">Todos</option>
+							<option value="p">Perímetro</option>
+							<option value="a">Área</option>
+							<option value="v">Volume</option>
+						</select>
+					</div>
+				</div>
+				<button class="btn btn-primary btn-lg" type="submit" name="bot" value="HD">Enviar</button>
+			</form>
+		</article>
+	</section>
+
 	<section id="company6" class="content">
 		<article class="box">
 			<h2>Octaedro</h2>	 
