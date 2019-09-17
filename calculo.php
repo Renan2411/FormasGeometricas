@@ -98,16 +98,41 @@
 		break;
 
 		case 'TD':
-		# code...
+			$l = $_POST["l"];
+
+			//calculo da área
+			$area = pow($a, 2) * sqrt(3);
+			if ($area < 0) {
+				$area *= -1;
+			}
+
+			//calculando o volume
+			$volume = (pow($l, 3) * sqrt(2))/12;
+			if ($volume < 0) {
+				$volume *= -1;
+			}
+
+			//calculando o perimetro
+			$perimetro = 6 * $l;
 		break;
 
 		case 'HD':
 	 		//Variáveis pegadas
 			$ar = $_POST["ar"];
 
-	 		//Variavéis de calculo
+	 		//calculo da área
 			$area = 6 * $ar *$ar;
+			if ($area < 0) {
+				$area *= -1;
+			}
+
+			//calculo do volume
 			$volume = pow($ar, 3);
+			if ($volume < 0) {
+				$volume *= -1;
+			}
+
+			//calculo do perimetro
 			$perimetro = 12 * $ar;
 
 		break;
@@ -121,13 +146,27 @@
 		break;
 
 		case 'ID':
-		lado = $_POST["l"];
+			lado = $_POST["l"];
+
+			//Calculo da área
+			$area = 5 * pow($l, 2) * sqrt(3);
+			if ($area < 0) {
+				$area *= -1;
+			}
+
+			//caluclando o volume
+			$volume = ((5/12) * pow($l, 3) * (3+sqrt(5)));
+			if ($volume < 0) {
+				$volume *= -1;
+			}
+
+			$perimetro = $l * 30; 
 		break;
 
 		case 'PL':
 		# code...
 		break;
-		
+
 		case 'PM':
 		# code...
 		break;
