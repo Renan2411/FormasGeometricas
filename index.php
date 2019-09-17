@@ -85,7 +85,7 @@
 		</article>
 	</section>
 
-		<section id="company3" class="content">
+	<section id="company3" class="content">
 		<article class="box">
 			<h2>Cilindro</h2>	 
 			<!-- Fromulário para CL -->
@@ -123,8 +123,30 @@
 		</article>
 	</section>
 
+	<!--Para o Teteaedro -->
+	<section id="company4" class="content">
+		<article class="box">
+			<h2>Tetraedro</h2>	 
+			<form class="needs-validation" action="calculo.php" method="post">
+				<div class="row">
+					<!-- Colocar o campo para pedir -->
+					<div class="col-md-2 mb-3">
+						<label for="cal">Escolha</label>
+						<select class="custom-select d-block w-100" required name="cal" id="cal">
+							<option value="t">Todos</option>
+							<option value="p">Perímetro</option>
+							<option value="a">Área</option>
+							<option value="v">Volume</option>
+						</select>
+					</div>
+				</div>
+				<button class="btn btn-primary btn-lg" type="submit" name="bot" value="HD">Enviar</button>
+			</form>
+		</article>
+	</section>
+
 	<!--Para o Hexaedro -->
-	<section id="service" class="content">
+	<section id="company5" class="content">
 		<article class="box">
 			<h2>Hexaedro</h2>	 
 			<form class="needs-validation" action="calculo.php" method="post">
@@ -181,6 +203,102 @@
 			</form>
 		</article>
 	</section>
+
+
+	<!--Para o  Dodecaedro-->
+	<section id="company7" class="content">
+		<article class="box">
+			<h2>Dodecaedro</h2>	 
+			<form class="needs-validation" action="calculo.php" method="post">
+				<div class="row">
+					<!-- Colocar o campo para pedir -->
+					<div class="col-md-2 mb-3">
+						<label for="cal">Escolha</label>
+						<select class="custom-select d-block w-100" required name="cal" id="cal">
+							<option value="t">Todos</option>
+							<option value="p">Perímetro</option>
+							<option value="a">Área</option>
+							<option value="v">Volume</option>
+						</select>
+					</div>
+				</div>
+				<button class="btn btn-primary btn-lg" type="submit" name="bot" value="HD">Enviar</button>
+			</form>
+		</article>
+	</section>
+
+
+	<!-- Para Icosaedro  -->
+	<section id="company8" class="content">
+		<article class="box">
+			<h2>Icosaedro</h2>	 
+			<form class="needs-validation" action="calculo.php" method="post">
+				<div class="row">
+					<div class="col-md-2 mb-3">
+						<label for="l">Lado</label>
+						<input type="number" min="0" name="l" id="l" placeholder="Digite em cm" class="form-control">
+						<div class="invalid-feedback">Obrigatório</div>
+					</div>
+
+					<div class="col-md-2 mb-3">
+						<label for="cal">Escolha</label>
+						<select class="custom-select d-block w-100" required name="cal" id="cal">
+							<option value="t">Todos</option>
+							<option value="p">Perímetro</option>
+							<option value="a">Área</option>
+							<option value="v">Volume</option>
+						</select>
+					</div>
+				</div>
+				<button class="btn btn-primary btn-lg" type="submit" name="bot" value="HD">Enviar</button>
+			</form>
+		</article>
+	</section>  
+
+	<!--Para o  Poliedro L-->
+	<section id="company9" class="content">
+		<article class="box">
+			<h2>Poliedro L</h2>	 
+			<form class="needs-validation" action="calculo.php" method="post">
+				<div class="row">
+					<!-- Colocar o campo para pedir -->
+					<div class="col-md-2 mb-3">
+						<label for="cal">Escolha</label>
+						<select class="custom-select d-block w-100" required name="cal" id="cal">
+							<option value="t">Todos</option>
+							<option value="p">Perímetro</option>
+							<option value="a">Área</option>
+							<option value="v">Volume</option>
+						</select>
+					</div>
+				</div>
+				<button class="btn btn-primary btn-lg" type="submit" name="bot" value="HD">Enviar</button>
+			</form>
+		</article>
+	</section>
+
+	<!--Para o  Poliedro Mais-->
+	<section id="company10" class="content">
+		<article class="box">
+			<h2>Poliedro Mais</h2>	 
+			<form class="needs-validation" action="calculo.php" method="post">
+				<div class="row">
+					<!-- Colocar o campo para pedir -->
+					<div class="col-md-2 mb-3">
+						<label for="cal">Escolha</label>
+						<select class="custom-select d-block w-100" required name="cal" id="cal">
+							<option value="t">Todos</option>
+							<option value="p">Perímetro</option>
+							<option value="a">Área</option>
+							<option value="v">Volume</option>
+						</select>
+					</div>
+				</div>
+				<button class="btn btn-primary btn-lg" type="submit" name="bot" value="HD">Enviar</button>
+			</form>
+		</article>
+	</section>
+
 
 	<section id="service" class="content">
 		<article class="box">
