@@ -138,11 +138,33 @@
 		break;
 
 		case 'OD':
-		# code...
+			//variáveis
+			$a = $_POST["a"];
+
+			//calculo area
+			$area = (2*(pow($a, 2)*sqrt(3)));
+
+			//calculo volume
+			$volume = (1/3*(pow($a, 3)*sqrt(2)));
+
+			//calculo perimetro
+			$perimetro = (12*$a);
+
 		break;
 
 		case 'DD':
-		# code...
+			//variaveis
+			$l = $_POST["l"];
+
+			//calculo area
+			$area = (3*(pow($l, 3)*sqrt(25+10*(sqrt(5)))));
+
+			//calculo volume
+			$volume = (1/4*(pow($l, 3)*(15+7*(sqrt(5)))));
+
+			//calculo perimetro
+			$perimetro = (30*$l);
+
 		break;
 
 		case 'ID':
@@ -154,7 +176,7 @@
 				$area *= -1;
 			}
 
-			//caluclando o volume
+			//calculando o volume
 			$volume = ((5/12) * pow($l, 3) * (3+sqrt(5)));
 			if ($volume < 0) {
 				$volume *= -1;
@@ -164,7 +186,19 @@
 		break;
 
 		case 'PL':
-		# code...
+			//variaveis
+			$lc = $_POST["lc"];
+			$lr = $_POST["lr"];
+			$h = $_POST["h"];
+
+			//calculo area
+			$area = (2*$h*$lr+2*$lr*$lr+2*$lr*$h)+(6*(pow($lc, 2)));
+
+			//calculo volume
+			$volume = ($lr*$lr*$h)+(pow($lc, 3))
+
+			//calculo perimetro
+			$perimetro = (4*$h+8*$lr+2*$lr)+(12*$lc);
 		break;
 
 		case 'PM':
