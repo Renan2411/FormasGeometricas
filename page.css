@@ -1,3 +1,7 @@
+img{
+    width: 200px;
+    height: 200px;
+}
 body{
     background: url(../images/background.jpg) no-repeat fixed center top;
 }
@@ -60,16 +64,16 @@ nav a{
     margin-left:0;
 }
 #home:target ~ header #link-home a,
-#company1:target ~ header #link-company a,
-#company2:target ~ header #link-company a,
-#company3:target ~ header #link-company a,
-#company4:target ~ header #link-company a,
-#company5:target ~ header #link-company a,
-#company6:target ~ header #link-company a,
-#company7:target ~ header #link-company a,
-#company8:target ~ header #link-company a,
-#company9:target ~ header #link-company a,
-#company10:target ~ header #link-company a,
+#company:target ~ header #link-company a,
+/*#company:target ~ header #link-company2 a,
+#company:target ~ header #link-company3 a,
+#company:target ~ header #link-company4 a,
+#company:target ~ header #link-company5 a,
+#company:target ~ header #link-company6 a,
+#company:target ~ header #link-company7 a,
+#company:target ~ header #link-company8 a,
+#company:target ~ header #link-company9 a,
+#company:target ~ header #link-company10 a,*/
 #service:target ~ header #link-service a,
 #contact:target ~ header #link-contact a{
     background: #333;
