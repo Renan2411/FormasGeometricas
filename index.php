@@ -460,8 +460,10 @@
 				
 			},10000);
 
-			setTimeout(function(){
+			setTimeout(function () {
 				$("#esc10").hide();
+				$("#bla").fadeIn(1000);
+
 			},11000);
 
 		}
