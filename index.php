@@ -13,11 +13,12 @@
 
 	<section id="home" class="content">
 		<article class="box">
+			<h2>Home</h2>
 			<button class="btn btn-primary btn-lg" onclick="tempo()" id="bla">Mostrar Figuras</button>
 			<img src="img/esfera.png" id="esc1">
 			<img src="img/piramidequadrangular.png" id="esc2">
 			<img src="img/cilindro.png" id="esc3">
-			<img src="img/tetraedro.png" id="esc4">
+			<img src="img/Tetraedro.png" id="esc4">
 			<img src="img/hexaedro.png" id="esc5">
 			<img src="img/octaedro.png" id="esc6">
 			<img src="img/dodecaedro.png" id="esc7">
@@ -200,7 +201,7 @@
 
 					<div class="col-md-2 mb-3">
 						<label for="r">Aresta</label>
-						<input type="number" name="a" id="a"class="form-control" placeholder="Digite em cm">
+						<input type="number" name="a" id="a"class="form-control" placeholder="Digite em cm" required>
 						<div class="invalid-feedback">
 							Obrigatório
 						</div>
@@ -230,7 +231,7 @@
 
 					<div class="col-md-2 mb-3">
 						<label for="r">Lado</label>
-						<input type="number" name="l" id="l"class="form-control" placeholder="Digite em cm">
+						<input type="number" name="l" id="l"class="form-control" placeholder="Digite em cm" required>
 						<div class="invalid-feedback">
 							Obrigatório
 						</div>
@@ -286,19 +287,19 @@
 				<div class="row">
 					<div class="col-md-2 mb-3">
 						<label for="lc">Lado do Cubo</label>
-						<input type="number" min="0" name="lc" id="lc" placeholder="Digite em cm" class="form-control">
+						<input type="number" min="0" name="lc" id="lc" placeholder="Digite em cm" class="form-control" required>
 						<div class="invalid-feedback">Obrigatório</div>
 					</div>
 
 					<div class="col-md-2 mb-3">
 						<label for="lr">Lado do Retângulo</label>
-						<input type="number" min="0" name="lr" id="lr" placeholder="Digite em cm" class="form-control">
+						<input type="number" min="0" name="lr" id="lr" placeholder="Digite em cm" class="form-control" required>
 						<div class="invalid-feedback">Obrigatório</div>
 					</div>
 
 					<div class="col-md-2 mb-3">
 						<label for="h">Altura do Retângulo</label>
-						<input type="number" min="0" name="h" id="h" placeholder="Digite em cm" class="form-control">
+						<input type="number" min="0" name="h" id="h" placeholder="Digite em cm" class="form-control" required>
 						<div class="invalid-feedback">Obrigatório</div>
 					</div>
 
@@ -401,6 +402,7 @@
 		$("#esc9").hide();
 		$("#esc10").hide();
 		tempo = function () {
+			//x = 0;
 
 			setTimeout(function(){
 				$("#bla").hide();
@@ -463,10 +465,14 @@
 			setTimeout(function () {
 				$("#esc10").hide();
 				$("#bla").fadeIn(1000);
-
+				
 			},11000);
 
 		}
+		
+		
+		
+		
 	</script>
 
 </body>
