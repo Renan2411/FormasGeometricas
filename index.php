@@ -13,17 +13,17 @@
 
 	<section id="home" class="content">
 		<article class="box">
-			<h2>Home</h2>
 			<button class="btn btn-primary btn-lg" onclick="tempo()" id="bla">Mostrar Figuras</button>
 			<img src="img/esfera.png" id="esc1">
 			<img src="img/piramidequadrangular.png" id="esc2">
 			<img src="img/cilindro.png" id="esc3">
-			<img src="img/Tetraedro.png" id="esc4">
+			<img src="img/tetraedro.png" id="esc4">
 			<img src="img/hexaedro.png" id="esc5">
 			<img src="img/octaedro.png" id="esc6">
 			<img src="img/dodecaedro.png" id="esc7">
-			<img src="img/poliedrol.png" id="esc8">
-			<img src="img/poliedromais.png" id="esc9">			
+			<img src="img/icosaedro.png" id="esc8">
+			<img src="img/poliedrol.png" id="esc9">
+			<img src="img/poliedromais.png" id="esc10">			
 		</article>
 	</section>
 
@@ -399,9 +399,8 @@
 		$("#esc7").hide();
 		$("#esc8").hide();
 		$("#esc9").hide();
-		//$("#bla").hide();
+		$("#esc10").hide();
 		tempo = function () {
-			//x = 0;
 
 			setTimeout(function(){
 				$("#bla").hide();
@@ -445,7 +444,7 @@
 
 			setTimeout(function () {
 				$("#esc7").hide();
-				$("esc8").fadeIn(1000);
+				$("#esc8").fadeIn(1000);
 				
 			},8000);
 
@@ -457,15 +456,15 @@
 
 			setTimeout(function () {
 				$("#esc9").hide();
-				$("#bla").fadeIn(1000);
+				$("#esc10").fadeIn(1000);
 				
 			},10000);
 
+			setTimeout(function(){
+				$("#esc10").hide();
+			},11000);
+
 		}
-		
-		
-		
-		
 	</script>
 
 </body>
