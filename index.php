@@ -191,21 +191,21 @@
 		</article>
 	</section>
 
-	<section id="company6" class="content">
+<section id="company6" class="content">
 		<article class="box">
 			<h2>Octaedro</h2>	 
-			<!-- Fromulário para ES -->
+			<!-- Fromulário para OD -->
 			<form class="needs-validation" method="post" action="calculo.php"> 
 				<div class="row">
 
 					<div class="col-md-2 mb-3">
 						<label for="r">Aresta</label>
-						<input type="number" name="a" id="a"class="form-control" placeholder="Digite em cm" required>
+						<input type="number" name="a" id="a"class="form-control" placeholder="Digite em cm">
 						<div class="invalid-feedback">
 							Obrigatório
 						</div>
 					</div>
-
+					
 					<div class="col-md-2 mb-3">
 						<label for="cal">Escolha o Cálculo</label>
 						<select class="custom-select d-block w-100" required name="cal" id="cal">
@@ -221,15 +221,23 @@
 		</article>
 	</section>
 
-	<!--Para o  Dodecaedro-->
 	<section id="company7" class="content">
 		<article class="box">
 			<h2>Dodecaedro</h2>	 
-			<form class="needs-validation" action="calculo.php" method="post">
+			<!-- Fromulário para DD -->
+			<form class="needs-validation" method="post" action="calculo.php"> 
 				<div class="row">
-					<!-- Colocar o campo para pedir -->
+
 					<div class="col-md-2 mb-3">
-						<label for="cal">Escolha</label>
+						<label for="r">Lado</label>
+						<input type="number" name="l" id="l"class="form-control" placeholder="Digite em cm">
+						<div class="invalid-feedback">
+							Obrigatório
+						</div>
+					</div>
+					
+					<div class="col-md-2 mb-3">
+						<label for="cal">Escolha o Cálculo</label>
 						<select class="custom-select d-block w-100" required name="cal" id="cal">
 							<option value="t">Todos</option>
 							<option value="p">Perímetro</option>
@@ -238,7 +246,7 @@
 						</select>
 					</div>
 				</div>
-				<button class="btn btn-primary btn-lg" type="submit" name="bot" value="HD">Enviar</button>
+				<button class="btn btn-primary btn-lg" type="submit" name="bot" value="DD">Enviar</button>
 			</form>
 		</article>
 	</section>
@@ -270,13 +278,30 @@
 		</article>
 	</section>  
 
-	<!--Para o  Poliedro L-->
+	<!-- Para Poliedro L  -->
 	<section id="company9" class="content">
 		<article class="box">
 			<h2>Poliedro L</h2>	 
 			<form class="needs-validation" action="calculo.php" method="post">
 				<div class="row">
-					<!-- Colocar o campo para pedir -->
+					<div class="col-md-2 mb-3">
+						<label for="lc">Lado do Cubo</label>
+						<input type="number" min="0" name="lc" id="lc" placeholder="Digite em cm" class="form-control">
+						<div class="invalid-feedback">Obrigatório</div>
+					</div>
+
+					<div class="col-md-2 mb-3">
+						<label for="lr">Lado do Retângulo</label>
+						<input type="number" min="0" name="lr" id="lr" placeholder="Digite em cm" class="form-control">
+						<div class="invalid-feedback">Obrigatório</div>
+					</div>
+
+					<div class="col-md-2 mb-3">
+						<label for="h">Altura do Retângulo</label>
+						<input type="number" min="0" name="h" id="h" placeholder="Digite em cm" class="form-control">
+						<div class="invalid-feedback">Obrigatório</div>
+					</div>
+
 					<div class="col-md-2 mb-3">
 						<label for="cal">Escolha</label>
 						<select class="custom-select d-block w-100" required name="cal" id="cal">
@@ -287,10 +312,10 @@
 						</select>
 					</div>
 				</div>
-				<button class="btn btn-primary btn-lg" type="submit" name="bot" value="HD">Enviar</button>
+				<button class="btn btn-primary btn-lg" type="submit" name="bot" value="PL">Enviar</button>
 			</form>
 		</article>
-	</section>
+	</section>  
 
 	<!--Para o  Poliedro Mais-->
 	<section id="company10" class="content">
