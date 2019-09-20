@@ -8,7 +8,7 @@
 	<link rel="icon" href="../../../../favicon.ico">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-	<title>Template de login, usando Bootstrap.</title>
+	<title>Calculos</title>
 
 	<!-- Principal CSS do Bootstrap -->
 	<link href="bootstrap.min.css" rel="stylesheet">
@@ -167,12 +167,20 @@
 
 			//calculo area
 				$area = (2*(pow($a, 2)*sqrt(3)));
-
+				if ($area < 0) {
+					$area *= -1;
+				}
 			//calculo volume
 				$volume = (1/3*(pow($a, 3)*sqrt(2)));
+				if ($volume < 0) {
+					$volume *= -1;
+				}
 
 			//calculo perimetro
 				$perimetro = (12*$a);
+				?>
+				<img class="mb-4" src="img/octaedro.png" alt="" width="72" height="72">
+				<?php 
 
 				break;
 
@@ -188,6 +196,9 @@
 
 			//calculo perimetro
 				$perimetro = (30*$l);
+				?>
+				<img class="mb-4" src="img/dodecaedro.png" alt="" width="72" height="72">
+				<?php 
 				break;
 
 				case 'ID':
@@ -220,12 +231,21 @@
 
 			//calculo area
 				$area = (2*$h*$lr+2*$lr*$lr+2*$lr*$h)+(6*(pow($lc, 2)));
+				if ($area < 0) {
+					$area *= -1;
+				}
 
 			//calculo volume
 				$volume = ($lr*$lr*$h)+(pow($lc, 3));
+				if ($volume < 0) {
+					$volume *= -1;
+				}
 
 			//calculo perimetro
 				$perimetro = (4*$h+8*$lr+2*$lr)+(12*$lc);
+				?>
+				<img class="mb-4" src="img/poliedrol.png" alt="" width="72" height="72">
+				<?php
 				break;
 
 				case 'PM':
@@ -261,24 +281,54 @@
 			?>
 			<div class="col-mb-3">
 				<label for="P">Área</label>
-				<input type="email" id="P" class="form-control" placeholder=<?php echo "$area"; ?>>
+				<input type="text" id="P" class="form-control" placeholder=<?php echo "$area"; ?>>
 			</div>
 			<div class="w-100"></div>
 			<?php  
 			break;
-			
-			default:
-				# code...
+
+			case 'v':
+			?>
+			<div class="col-mb-3">
+				<label for="P">Volume</label>
+				<input type="text" id="P" class="form-control" placeholder=<?php echo "$volume"; ?>>
+			</div>
+			<div class="w-100"></div>
+			<?php 
 			break;
+
+			case 'p':
+			?>
+			<div class="col-mb-3">
+				<label for="P">Volume</label>
+				<input type="text" id="P" class="form-control" placeholder=<?php echo "$volume"; ?>>
+			</div>
+			<div class="w-100"></div>
+			<?php 
+			break;
+
+			case 't':
+			?>
+			<div class="col-mb-3">
+				<label for="P">Área</label>
+				<input type="text" id="P" class="form-control" placeholder=<?php echo "$area"; ?>>
+			</div>
+			<div class="w-100"></div>
+			<div class="col-mb-3">
+				<label for="P">Volume</label>
+				<input type="text" id="P" class="form-control" placeholder=<?php echo "$volume"; ?>>
+			</div>
+			<div class="w-100"></div>
+			<div class="col-mb-3">
+				<label for="P">Perimetro</label>
+				<input type="text" id="P" class="form-control" placeholder=<?php echo "$perimetro"; ?>>
+			</div>
+			<div class="w-100"></div>
+			<?php 
+			break;
+
 		}
 		?>
-		<!-- <div class="col-mb-3">
-			<label for="inputEmail" class="sr-only">Endereço de email</label>
-			<input type="email" id="inputEmail" class="form-control" placeholder="Seu email" required autofocus>
-		</div>
-
-		<label for="inputPassword" class="sr-only">Senha</label>
-		<input type="text" id="inputPassword" class="form-control" placeholder="Senha" required> -->
 		<div class="checkbox mb-3">
 			<label>
 				<input type="checkbox"> Ajudou

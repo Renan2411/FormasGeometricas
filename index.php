@@ -14,16 +14,16 @@
 	<section id="home" class="content">
 		<article class="box">
 			<h2>Home</h2>
-		
-				<img src="img/esfera.png" id="esc1">
-				<img src="img/piramidequadrangular.png" id="esc2">
-				<img src="img/cilindro.png" id="esc3">
-				<img src="img/Tetraedro.png" id="esc4">
-				<img src="img/hexaedro.png" id="esc5">
-				<img src="img/octaedro.png" id="esc6">
-				<img src="img/dodecaedro.png" id="esc7">
-				<img src="img/poliedrol.png" id="esc8">
-				<img src="img/poliedromais.png" id="esc9">			
+			<button class="btn btn-primary btn-lg" onclick="tempo()" id="bla">Mostrar Figuras</button>
+			<img src="img/esfera.png" id="esc1">
+			<img src="img/piramidequadrangular.png" id="esc2">
+			<img src="img/cilindro.png" id="esc3">
+			<img src="img/Tetraedro.png" id="esc4">
+			<img src="img/hexaedro.png" id="esc5">
+			<img src="img/octaedro.png" id="esc6">
+			<img src="img/dodecaedro.png" id="esc7">
+			<img src="img/poliedrol.png" id="esc8">
+			<img src="img/poliedromais.png" id="esc9">			
 		</article>
 	</section>
 
@@ -191,7 +191,7 @@
 		</article>
 	</section>
 
-<section id="company6" class="content">
+	<section id="company6" class="content">
 		<article class="box">
 			<h2>Octaedro</h2>	 
 			<!-- Fromulário para OD -->
@@ -390,67 +390,78 @@
 	</header>	
 
 	<script type="text/javascript">
-		var x = 1;
+		$("#esc1").hide();
+		$("#esc2").hide();
+		$("#esc3").hide();
+		$("#esc4").hide();
+		$("#esc5").hide();
+		$("#esc6").hide();
+		$("#esc7").hide();
+		$("#esc8").hide();
+		$("#esc9").hide();
 		//$("#bla").hide();
 		tempo = function () {
 			//x = 0;
-			//$("#esc1").hide();
-			$("#esc2").hide();
-			$("#esc3").hide();
-			$("#esc4").hide();
-			$("#esc5").hide();
-			$("#esc6").hide();
-			$("#esc7").hide();
-			$("#esc8").hide();
-			$("#esc9").hide();
 
-
-			setTimeout(function () {
-				$("#esc2").fadeIn(1000);
-				$("#esc1").hide();
+			setTimeout(function(){
+				$("#bla").hide();
+				$("#esc1").fadeIn(1000);
 			},1000);
 
-			setTimeout(function() {
-				$("#esc3").fadeIn(1000);
-				$("#esc2").hide();
+			setTimeout(function () {
+				$("#esc1").hide();
+				$("#esc2").fadeIn(1000);
 			},2000);
 
 			setTimeout(function() {
-				$("#esc4").fadeIn(1000);
-				$("#esc3").hide();
+				$("#esc2").hide();
+				$("#esc3").fadeIn(1000);
+				
 			},3000);
 
-			setTimeout(function () {
-				$("#esc5").fadeIn(1000);
-				$("#esc4").hide();
+			setTimeout(function() {
+				$("#esc3").hide();
+				$("#esc4").fadeIn(1000);
+				
 			},4000);
 
 			setTimeout(function () {
-				$("#esc6").fadeIn(1000);
-				$("#esc5").hide();
+				$("#esc4").hide();
+				$("#esc5").fadeIn(1000);
+				
 			},5000);
 
 			setTimeout(function () {
-				$("#esc7").fadeIn(1000);
-				$("#esc6").hide();
+				$("#esc5").hide();
+				$("#esc6").fadeIn(1000);
+				
 			},6000);
 
 			setTimeout(function () {
-				$("esc8").fadeIn(1000);
-				$("#esc7").hide();
+				$("#esc6").hide();
+				$("#esc7").fadeIn(1000);
+				
 			},7000);
 
 			setTimeout(function () {
-				$("#esc9").fadeIn(1000);
-				$("#esc8").hide();
+				$("#esc7").hide();
+				$("esc8").fadeIn(1000);
+				
 			},8000);
 
-		}
+			setTimeout(function () {
+				$("#esc8").hide();
+				$("#esc9").fadeIn(1000);
+				
+			},9000);
 
-		if (x==1) {
-			tempo();
-		}
+			setTimeout(function () {
+				$("#esc9").hide();
+				$("#bla").fadeIn(1000);
+				
+			},10000);
 
+		}
 		
 		
 		
