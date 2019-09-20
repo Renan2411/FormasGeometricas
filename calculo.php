@@ -17,7 +17,7 @@
 	<link href="page.css" rel="stylesheet">
 </head>
 
-<body class="text-center">
+<body>
 
 	<form class="form-signin" action="index.php">
 		<?php 
@@ -301,7 +301,7 @@
 			?>
 			<div class="col-mb-3">
 				<label for="P">Volume</label>
-				<input type="text" id="P" class="form-control" placeholder=<?php echo "$volume"; ?>>
+				<input type="text" id="P" class="form-control" placeholder=<?php echo "$perimetro"; ?>>
 			</div>
 			<div class="w-100"></div>
 			<?php 
@@ -309,19 +309,21 @@
 
 			case 't':
 			?>
-			<div class="col-mb-3">
-				<label for="P">Área</label>
-				<input type="text" id="P" class="form-control" placeholder=<?php echo "$area"; ?>>
-			</div>
-			<div class="w-100"></div>
-			<div class="col-mb-3">
-				<label for="P">Volume</label>
-				<input type="text" id="P" class="form-control" placeholder=<?php echo "$volume"; ?>>
-			</div>
-			<div class="w-100"></div>
-			<div class="col-mb-3">
-				<label for="P">Perimetro</label>
-				<input type="text" id="P" class="form-control" placeholder=<?php echo "$perimetro"; ?>>
+			<div class="row">
+				<div class="col-mb-3">
+					<label for="P">Área</label>
+					<input type="text" id="P" class="form-control" placeholder=<?php echo "$area"; ?>>
+				</div>
+				<div class="w-100"></div>
+				<div class="col-mb-3">
+					<label for="P">Volume</label>
+					<input type="text" id="P" class="form-control" placeholder=<?php echo "$volume"; ?>>
+				</div>
+				<div class="w-100"></div>
+				<div class="col-mb-3">
+					<label for="P">Perimetro</label>
+					<input type="text" id="P" class="form-control" placeholder=<?php echo "$perimetro"; ?>>
+				</div>
 			</div>
 			<div class="w-100"></div>
 			<?php 

@@ -158,7 +158,7 @@
 						</select>
 					</div>
 				</div>
-				<button class="btn btn-primary btn-lg" type="submit" name="bot" value="HD">Enviar</button>
+				<button class="btn btn-primary btn-lg" type="submit" name="bot" value="TD">Enviar</button>
 			</form>
 		</article>
 	</section>
@@ -341,19 +341,6 @@
 				</div>
 				<button class="btn btn-primary btn-lg" type="submit" name="bot" value="PM">Enviar</button>
 			</form>
-		</article>
-	</section>
-
-
-	<section id="service" class="content">
-		<article class="box">
-			<h2>Serviços</h2>	 
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque justo massa,
-				vestibulum id pulvinar quis, pharetra vestibulum quam. Sed ornare malesuada arcu id pulvinar.
-				Ut vulputate est sed nisl mattis lacinia. Aliquam mollis mauris id dictum tempus. Donec a
-				imperdiet purus, sed iaculis lectus. Nunc ligula enim, feugiat in vulputate vitae,
-				viverra sit amet nibh. Pellentesque sit amet nulla vel dolor dapibus cursus.
-			</p>
 		</article>
 	</section>
 
