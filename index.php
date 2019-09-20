@@ -22,8 +22,9 @@
 			<img src="img/hexaedro.png" id="esc5">
 			<img src="img/octaedro.png" id="esc6">
 			<img src="img/dodecaedro.png" id="esc7">
-			<img src="img/poliedrol.png" id="esc8">
-			<img src="img/poliedromais.png" id="esc9">			
+			<img src="img/icosaedro.png" id="esc8">
+			<img src="img/poliedrol.png" id="esc9">
+			<img src="img/poliedromais.png" id="esc10">			
 		</article>
 	</section>
 
@@ -399,7 +400,7 @@
 		$("#esc7").hide();
 		$("#esc8").hide();
 		$("#esc9").hide();
-		//$("#bla").hide();
+		$("#esc10").hide();
 		tempo = function () {
 			//x = 0;
 
@@ -445,7 +446,7 @@
 
 			setTimeout(function () {
 				$("#esc7").hide();
-				$("esc8").fadeIn(1000);
+				$("#esc8").fadeIn(1000);
 				
 			},8000);
 
@@ -457,9 +458,15 @@
 
 			setTimeout(function () {
 				$("#esc9").hide();
-				$("#bla").fadeIn(1000);
+				$("#esc10").fadeIn(1000);
 				
 			},10000);
+
+			setTimeout(function () {
+				$("#esc10").hide();
+				$("#bla").fadeIn(1000);
+				
+			},11000);
 
 		}
 		
