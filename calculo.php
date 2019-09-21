@@ -25,6 +25,35 @@
 			$f = $_POST["bot"];	
 			$op = $_POST["cal"];
 			switch ($f) {
+				case 'ES':
+				$r = $_POST["r"];
+
+	 		//variaveis para conta
+				$pi = 3.14;
+
+	 		//calculo area
+				$area = round((4*$pi*(pow($r, 2))));
+				if ($area < 0) {
+					$area *= -1;
+				}
+
+	 		//calculo volume
+				$volume = round(($pi*(pow($r, 3))*(4/3)),2);
+				if ($volume < 0) {
+					$volume *= -1;
+				}
+
+	 		//calculo perimetro
+				$perimetro = (2*$pi*$r);
+				if ($perimetro < 0) {
+					$perimetro *= -1;
+				}
+				?>
+				<img class="mb-4" src="img/esfera.png" alt="" width="72" height="72">
+
+				<?php
+				break; 
+
 				case 'PQ':
 	 			//variaveis pegadas
 				$lb = $_POST["lb"];
@@ -56,34 +85,6 @@
 				<?php  
 				break;
 
-				case 'ES':
-				$r = $_POST["r"];
-
-	 		//variaveis para conta
-				$pi = 3.14;
-
-	 		//calculo area
-				$area = round((4*$pi*(pow($r, 2))));
-				if ($area < 0) {
-					$area *= -1;
-				}
-
-	 		//calculo volume
-				$volume = round(($pi*(pow($r, 3))*(4/3)),2);
-				if ($volume < 0) {
-					$volume *= -1;
-				}
-
-	 		//calculo perimetro
-				$perimetro = (2*$pi*$r);
-				if ($perimetro < 0) {
-					$perimetro *= -1;
-				}
-				?>
-				<img class="mb-4" src="img/esfera.png" alt="" width="72" height="72">
-
-				<?php
-				break; 
 				case 'CL':
 				$h = $_POST["h"];
 				$r = $_POST["r"];
@@ -106,7 +107,7 @@
 				}
 
 			//calculo perimetro
-				$perimetro = ((2*$AB)+$AL);
+				$perimetro = (2*(2*$pi*$r)+2*($h)2*(2*$pi*$r));
 				if ($perimetro < 0) {
 					$perimetro *= -1;
 				}
