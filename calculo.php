@@ -107,7 +107,7 @@
 				}
 
 			//calculo perimetro
-				$perimetro = (2*(2*$pi*$r)+2*($h)2*(2*$pi*$r));
+				$perimetro = (2*(2*$pi*$r)+2*($h)+2*(2*$pi*$r));
 				if ($perimetro < 0) {
 					$perimetro *= -1;
 				}
