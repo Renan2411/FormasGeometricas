@@ -49,7 +49,7 @@
 
 					<div class="col-md-2 mb-3">
 						<label for="r">Raio da Esfera</label>
-						<input type="number" name="r" id="r"class="form-control" placeholder="Digite em cm" required>
+						<input type="number" name="r" step="0.010" id="r"class="form-control" placeholder="Digite em cm" required>
 						<div class="invalid-feedback">
 							Obrigatório
 						</div>
@@ -80,7 +80,7 @@
 
 					<div class="col-md-2 mb-3">
 						<label for="lb">Lado da Base</label>
-						<input type="number" min="0" name="lb" id="lb" class="form-control" placeholder="Digite em cm" required>
+						<input type="number" min="0" name="lb" step="0.010" id="lb" class="form-control" placeholder="Digite em cm" required>
 						<div class="invalid-feedback">
 							Obrigatório
 						</div>
@@ -88,7 +88,7 @@
 
 					<div class="col-md-2 mb-3">
 						<label for="lp">Lado da Pirâmide</label>
-						<input type="number" name="lp" id="lp" min="0" class="form-control" placeholder="Digite em cm" required>
+						<input type="number" name="lp" id="lp" min="0" step="0.010" class="form-control" placeholder="Digite em cm" required>
 						<div class="invalid-feedback">
 							Obrigatório
 						</div>
@@ -119,7 +119,7 @@
 
 					<div class="col-md-2 mb-3">
 						<label for="h">Altura do Cilindro</label>
-						<input type="number" min="0" name="h" id="h" class="form-control" placeholder="Digite em cm" required>
+						<input type="number" min="0" name="h" id="h" step="0.010" class="form-control" placeholder="Digite em cm" required>
 						<div class="invalid-feedback">
 							Obrigatório
 						</div>
@@ -127,7 +127,7 @@
 
 					<div class="col-md-2 mb-3">
 						<label for="r">Raio do Cilindro</label>
-						<input type="number" name="r" id="r" min="0" class="form-control" placeholder="Digite em cm" required>
+						<input type="number" name="r" id="r" min="0" step="0.010" class="form-control" placeholder="Digite em cm" required>
 						<div class="invalid-feedback">
 							Obrigatório
 						</div>
@@ -157,7 +157,7 @@
 
 					<div class="col-md-2 mb-3">
 						<label for="l">Lado</label>
-						<input type="number" min="0" name="l" id="l" class="form-control" placeholder="Digite em cm" required>
+						<input type="number" min="0" name="l" id="l" step="0.010" class="form-control" placeholder="Digite em cm" required>
 					</div>
 
 					<div class="col-md-2 mb-3">
@@ -183,7 +183,7 @@
 				<div class="row">
 					<div class="col-md-2 mb-3">
 						<label for="ar">Valor da Aresta</label>
-						<input type="number" min="0" name="ar" id="ar" placeholder="digite em cm" class="form-control" required>
+						<input type="number" min="0" name="ar" id="ar" step="0.010" placeholder="digite em cm" class="form-control" required>
 						<div class="invalid-feedback">
 							Obrigatório
 						</div>
@@ -213,7 +213,7 @@
 
 					<div class="col-md-2 mb-3">
 						<label for="r">Aresta</label>
-						<input type="number" name="a" id="a"class="form-control" placeholder="Digite em cm" required>
+						<input type="number" name="a" id="a"class="form-control" step="0.010" placeholder="Digite em cm" required>
 						<div class="invalid-feedback">
 							Obrigatório
 						</div>
@@ -243,7 +243,7 @@
 
 					<div class="col-md-2 mb-3">
 						<label for="r">Lado</label>
-						<input type="number" name="l" id="l"class="form-control" placeholder="Digite em cm" required>
+						<input type="number" name="l" id="l"class="form-control" step="0.010" placeholder="Digite em cm" required>
 						<div class="invalid-feedback">
 							Obrigatório
 						</div>
@@ -272,7 +272,7 @@
 				<div class="row">
 					<div class="col-md-2 mb-3">
 						<label for="l">Lado</label>
-						<input type="number" min="0" name="l" id="l" placeholder="Digite em cm" class="form-control" required>
+						<input type="number" min="0" name="l" id="l" placeholder="Digite em cm" step="0.010" class="form-control" required>
 						<div class="invalid-feedback">Obrigatório</div>
 					</div>
 
@@ -299,19 +299,19 @@
 				<div class="row">
 					<div class="col-md-2 mb-3">
 						<label for="lc">Lado do Cubo</label>
-						<input type="number" min="0" name="lc" id="lc" placeholder="Digite em cm" class="form-control" required>
+						<input type="number" min="0" name="lc" id="lc" placeholder="Digite em cm" step="0.010" class="form-control" required>
 						<div class="invalid-feedback">Obrigatório</div>
 					</div>
 
 					<div class="col-md-2 mb-3">
 						<label for="lr">Lado do Retângulo</label>
-						<input type="number" min="0" name="lr" id="lr" placeholder="Digite em cm" class="form-control" required>
+						<input type="number" min="0" name="lr" id="lr" placeholder="Digite em cm" step="0.010" class="form-control" required>
 						<div class="invalid-feedback">Obrigatório</div>
 					</div>
 
 					<div class="col-md-2 mb-3">
 						<label for="h">Altura do Retângulo</label>
-						<input type="number" min="0" name="h" id="h" placeholder="Digite em cm" class="form-control" required>
+						<input type="number" min="0" name="h" id="h" placeholder="Digite em cm" step="0.010" class="form-control" required>
 						<div class="invalid-feedback">Obrigatório</div>
 					</div>
 
@@ -339,7 +339,7 @@
 					<!-- Colocar o campo para pedir -->
 					<div class="col-md-2 mb-3">
 						<label for="a">Aresta</label>
-						<input type="number" min="0" name="a" id="a" class="form-control" placeholder="Digite em cm" required>
+						<input type="number" min="0" name="a" id="a" class="form-control" step="0.010" placeholder="Digite em cm" required>
 					</div>
 					<div class="col-md-2 mb-3">
 						<label for="cal">Escolha</label>
