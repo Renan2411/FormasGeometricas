@@ -12,19 +12,31 @@
 	<script src="plugins/jquery-3.4.1.js"></script>
 
 	<section id="home" class="content">
+
 		<article class="box">
-			<h2>Home</h2>
-			<button class="btn btn-primary btn-lg" onclick="tempo()" id="bla">Mostrar Figuras</button>
-			<img src="img/esfera.png" id="esc1">
-			<img src="img/piramidequadrangular.png" id="esc2">
-			<img src="img/cilindro.png" id="esc3">
-			<img src="img/Tetraedro.png" id="esc4">
-			<img src="img/hexaedro.png" id="esc5">
-			<img src="img/octaedro.png" id="esc6">
-			<img src="img/dodecaedro.png" id="esc7">
-			<img src="img/icosaedro.png" id="esc8">
-			<img src="img/poliedrol.png" id="esc9">
-			<img src="img/poliedromais.png" id="esc10">			
+			<div class="row" id="1">
+				<div class="col-md-3"><img src="img/esfera.png" id="esc1"></div>
+				<div class="col-md-3"><img src="img/piramidequadrangular.png" id="esc2"></div>
+				<div class="col-md-3"><img src="img/cilindro.png" id="esc3"></div>
+				<div class="col-md-3"><img src="img/Tetraedro.png" id="esc4"></div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-3"></div>
+				<div class="col-md-3"><img src="img/hexaedro.png" id="esc5"></div>
+				<div class="col-md-3"><img src="img/octaedro.png" id="esc6"></div>
+				<div class="col-md-3"></div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-3"><img src="img/dodecaedro.png" id="esc7"></div>
+				<div class="col-md-3"><img src="img/icosaedro.png" id="esc8"></div>
+				<div class="col-md-3"><img src="img/poliedrol.png" id="esc9"></div>
+				<div class="col-md-3"><img src="img/poliedromais.png" id="esc10"></div>
+			</div>
+
+			
+			<button class="btn btn-primary btn-lg" onclick="tempo()" id="bla">Mostrar Figuras</button>		
 		</article>
 	</section>
 
@@ -344,6 +356,19 @@
 		</article>
 	</section>
 
+
+	<section id="service" class="content">
+		<article class="box">
+			<h2>Serviços</h2>	 
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque justo massa,
+				vestibulum id pulvinar quis, pharetra vestibulum quam. Sed ornare malesuada arcu id pulvinar.
+				Ut vulputate est sed nisl mattis lacinia. Aliquam mollis mauris id dictum tempus. Donec a
+				imperdiet purus, sed iaculis lectus. Nunc ligula enim, feugiat in vulputate vitae,
+				viverra sit amet nibh. Pellentesque sit amet nulla vel dolor dapibus cursus.
+			</p>
+		</article>
+	</section>
+
 	<section id="contact" class="content">
 		<article class="box">
 			<h2>Contato</h2>	 
@@ -397,69 +422,74 @@
 			},1000);
 
 			setTimeout(function () {
-				$("#esc1").hide();
+				//$("#esc1").hide();
 				$("#esc2").fadeIn(1000);
 			},2000);
 
 			setTimeout(function() {
-				$("#esc2").hide();
+				//$("#esc2").hide();
 				$("#esc3").fadeIn(1000);
 				
 			},3000);
 
 			setTimeout(function() {
-				$("#esc3").hide();
+				//$("#esc3").hide();
 				$("#esc4").fadeIn(1000);
 				
 			},4000);
 
 			setTimeout(function () {
-				$("#esc4").hide();
+				//$("#esc4").hide();
 				$("#esc5").fadeIn(1000);
 				
 			},5000);
 
 			setTimeout(function () {
-				$("#esc5").hide();
+				//$("#esc5").hide();
 				$("#esc6").fadeIn(1000);
 				
 			},6000);
 
 			setTimeout(function () {
-				$("#esc6").hide();
+				//$("#esc6").hide();
 				$("#esc7").fadeIn(1000);
 				
 			},7000);
 
 			setTimeout(function () {
-				$("#esc7").hide();
+				//$("#esc7").hide();
 				$("#esc8").fadeIn(1000);
 				
 			},8000);
 
 			setTimeout(function () {
-				$("#esc8").hide();
+				//$("#esc8").hide();
 				$("#esc9").fadeIn(1000);
 				
 			},9000);
 
 			setTimeout(function () {
-				$("#esc9").hide();
+				//$("#esc9").hide();
 				$("#esc10").fadeIn(1000);
 				
 			},10000);
 
 			setTimeout(function () {
+				$("#esc1").hide();
+				$("#esc2").hide();
+				$("#esc3").hide();
+				$("#esc4").hide();
+				$("#esc5").hide();
+				$("#esc6").hide();
+				$("#esc7").hide();
+				$("#esc8").hide();
+				$("#esc9").hide();
 				$("#esc10").hide();
 				$("#bla").fadeIn(1000);
-				
 			},11000);
 
 		}
-		
-		
-		
-		
+				
 	</script>
 
 </body>
