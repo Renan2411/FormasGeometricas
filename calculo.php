@@ -17,7 +17,7 @@
 	<link href="page.css" rel="stylesheet">
 </head>
 
-<body class="pg-light">
+<body class="pg-white">
 	<div class="container text-center">
 		<form class="needs-validation form-signin" action="index.php">
 			<?php 
