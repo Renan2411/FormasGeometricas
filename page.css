@@ -32,7 +32,7 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-img{
+img:not(sobre){
     width: 200px;
     height: 200px;
     align-content: center;
@@ -106,18 +106,11 @@ nav a{
 }
 #home:target ~ header #link-home a,
 #company:target ~ header #link-company a,
-/*#company:target ~ header #link-company2 a,
-#company:target ~ header #link-company3 a,
-#company:target ~ header #link-company4 a,
-#company:target ~ header #link-company5 a,
-#company:target ~ header #link-company6 a,
-#company:target ~ header #link-company7 a,
-#company:target ~ header #link-company8 a,
-#company:target ~ header #link-company9 a,
-#company:target ~ header #link-company10 a,*/
-#service:target ~ header #link-service a,
 #contact:target ~ header #link-contact a{
     background: #333;
     color: #fff;
 }
-
+#sobre{
+  height: 304px;
+  width: 405.5px;
+}
