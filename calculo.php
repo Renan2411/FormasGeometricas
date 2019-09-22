@@ -17,7 +17,7 @@
 	<link href="page.css" rel="stylesheet">
 </head>
 
-<body class="pg-light">
+<body class="pg-white">
 	<div class="container text-center">
 		<form class="needs-validation form-signin" action="index.php">
 			<?php 
@@ -341,13 +341,14 @@
 
 			}
 			?>
+			<br>
 			<div class="checkbox mb-3">
 				<label>
 					<input type="checkbox"> Ajudou
 				</label>
 			</div>
-			<button class="btn btn-lg btn-primary btn-block" type="submit">Voltar</button>
-			<p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
+			<button class="btn btn-light btn-lg bg-light text-dark btn-block" type="submit">Voltar</button>
+			<p class="mt-5 mb-3 text-muted">&copy; FPRD</p>
 		</form>
 	</div>
 </body>

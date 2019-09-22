@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
-<body class="pg-light">
+<body class="pg-white">
 	<script src="plugins/jquery-3.4.1.js"></script>
 
 	<section id="home" class="content">
@@ -36,7 +36,7 @@
 			</div>
 
 			
-			<button class="btn btn-primary btn-lg" onclick="tempo()" id="bla">Mostrar Figuras</button>		
+			<button class="btn btn-light btn-lg bg-light text-dark"  onclick="tempo()" id="bla">Mostrar Figuras</button>		
 		</article>
 	</section>
 
@@ -65,7 +65,7 @@
 						</select>
 					</div>
 				</div>
-				<button class="btn btn-primary btn-lg" type="submit" name="bot" value="ES">Enviar</button>
+				<button class="btn btn-light btn-lg bg-light text-dark" type="submit" name="bot" value="ES">Enviar</button>
 			</form>
 		</article>
 	</section>
@@ -105,7 +105,7 @@
 						</select>
 					</div>
 				</div>
-				<button class="btn btn-primary btn-lg" type="submit" name="bot" value="PQ">Enviar</button>
+				<button class="btn btn-light btn-lg bg-light text-dark" type="submit" name="bot" value="PQ">Enviar</button>
 			</form>
 		</article>
 	</section>
@@ -143,7 +143,7 @@
 						</select>
 					</div>
 				</div>
-				<button class="btn btn-primary btn-lg" type="submit" name="bot" value="CL">Enviar</button>
+				<button class="btn btn-light btn-lg bg-light text-dark" type="submit" name="bot" value="CL">Enviar</button>
 			</form>
 		</article>
 	</section>
@@ -170,7 +170,7 @@
 						</select>
 					</div>
 				</div>
-				<button class="btn btn-primary btn-lg" type="submit" name="bot" value="TD">Enviar</button>
+				<button class="btn btn-light btn-lg bg-light text-dark" type="submit" name="bot" value="TD">Enviar</button>
 			</form>
 		</article>
 	</section>
@@ -199,7 +199,7 @@
 						</select>
 					</div>
 				</div>
-				<button class="btn btn-primary btn-lg" type="submit" name="bot" value="HD">Enviar</button>
+				<button class="btn btn-light btn-lg bg-light text-dark" type="submit" name="bot" value="HD">Enviar</button>
 			</form>
 		</article>
 	</section>
@@ -229,7 +229,7 @@
 						</select>
 					</div>
 				</div>
-				<button class="btn btn-primary btn-lg" type="submit" name="bot" value="OD">Enviar</button>
+				<button class="btn btn-light btn-lg bg-light text-dark" type="submit" name="bot" value="OD">Enviar</button>
 			</form>
 		</article>
 	</section>
@@ -259,7 +259,7 @@
 						</select>
 					</div>
 				</div>
-				<button class="btn btn-primary btn-lg" type="submit" name="bot" value="DD">Enviar</button>
+				<button class="btn btn-light btn-lg bg-light text-dark" type="submit" name="bot" value="DD">Enviar</button>
 			</form>
 		</article>
 	</section>
@@ -286,7 +286,7 @@
 						</select>
 					</div>
 				</div>
-				<button class="btn btn-primary btn-lg" type="submit" name="bot" value="ID">Enviar</button>
+				<button class="btn btn-light btn-lg bg-light text-dark" type="submit" name="bot" value="ID">Enviar</button>
 			</form>
 		</article>
 	</section>  
@@ -325,7 +325,7 @@
 						</select>
 					</div>
 				</div>
-				<button class="btn btn-primary btn-lg" type="submit" name="bot" value="PL">Enviar</button>
+				<button class="btn btn-light btn-lg bg-light text-dark" type="submit" name="bot" value="PL">Enviar</button>
 			</form>
 		</article>
 	</section>  
@@ -351,7 +351,7 @@
 						</select>
 					</div>
 				</div>
-				<button class="btn btn-primary btn-lg" type="submit" name="bot" value="PM">Enviar</button>
+				<button class="btn btn-light btn-lg bg-light text-dark" type="submit" name="bot" value="PM">Enviar</button>
 			</form>
 		</article>
 	</section>
