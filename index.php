@@ -410,8 +410,6 @@
 							<div class="invalid-feedback">
 								Obrigatório
 							</div>
-						</div>
-
 						<div class="col-md-2 mb-3">
 							<label for="cal">Escolha o Cálculo</label>
 							<select class="custom-select d-block w-100" required name="cal" id="cal">
@@ -427,7 +425,6 @@
 			</article>
 		</section>
 
-
 		<section id="company2" class="content">
 			<article class="box" align="center">
 				<h2>Pirâmide de Base Quadrangular</h2>	
@@ -441,8 +438,6 @@
 							<div class="invalid-feedback">
 								Obrigatório
 							</div>
-						</div>
-
 						<div class="col-md-2 mb-3">
 							<label for="lp">Lado da Pirâmide</label>
 							<input type="number" name="lp" id="lp" min="0" class="form-control" placeholder="Digite em cm" required>
@@ -481,13 +476,13 @@
 								Obrigatório
 							</div>
 						</div>
-
 						<div class="col-md-2 mb-3">
 							<label for="r">Raio do Cilindro</label>
 							<input type="number" name="r" id="r" min="0" class="form-control" placeholder="Digite em cm" required>
 							<div class="invalid-feedback">
 								Obrigatório
 							</div>
+
 						</div>
 
 						<div class="col-md-2 mb-3">
@@ -516,7 +511,6 @@
 							<label for="l">Lado</label>
 							<input type="number" min="0" name="l" id="l" class="form-control" placeholder="Digite em cm" required>
 						</div>
-
 						<div class="col-md-2 mb-3">
 							<label for="cal">Escolha</label>
 							<select class="custom-select d-block w-100" required name="cal" id="cal">
@@ -546,7 +540,6 @@
 								Obrigatório
 							</div>
 						</div>
-
 						<div class="col-md-2 mb-3">
 							<label for="cal">Escolha</label>
 							<select class="custom-select d-block w-100" required name="cal" id="cal">
@@ -577,7 +570,6 @@
 								Obrigatório
 							</div>
 						</div>
-
 						<div class="col-md-2 mb-3">
 							<label for="cal">Escolha o Cálculo</label>
 							<select class="custom-select d-block w-100" required name="cal" id="cal">
@@ -635,7 +627,6 @@
 							<input type="number" min="0" name="l" id="l" placeholder="Digite em cm" class="form-control" required>
 							<div class="invalid-feedback">Obrigatório</div>
 						</div>
-
 						<div class="col-md-2 mb-3">
 							<label for="cal">Escolha</label>
 							<select class="custom-select d-block w-100" required name="cal" id="cal">
@@ -663,7 +654,6 @@
 							<input type="number" min="0" name="lc" id="lc" placeholder="Digite em cm" class="form-control" required>
 							<div class="invalid-feedback">Obrigatório</div>
 						</div>
-
 						<div class="col-md-2 mb-3">
 							<label for="lr">Lado do Retângulo</label>
 							<input type="number" min="0" name="lr" id="lr" placeholder="Digite em cm" class="form-control" required>
@@ -675,7 +665,6 @@
 							<input type="number" min="0" name="h" id="h" placeholder="Digite em cm" class="form-control" required>
 							<div class="invalid-feedback">Obrigatório</div>
 						</div>
-
 						<div class="col-md-2 mb-3">
 							<label for="cal">Escolha</label>
 							<select class="custom-select d-block w-100" required name="cal" id="cal">
@@ -858,6 +847,3 @@
 
 </body>
 </html>
-<?php 
-}
-?>
