@@ -353,23 +353,8 @@
 }else{
 	?>
 	<!-- INDEX -->
-	<div class="container text-center">
-		<form class="needs-validation form-signin" action="index.php">
-
-			<br>
-			<div class="checkbox mb-3">
-				<label>
-					<input type="checkbox"> Ajudou
-				</label>
-			</div>
-			<button class="btn btn-light btn-lg bg-light text-dark btn-block" type="submit">Voltar</button>
-			<p class="mt-5 mb-3 text-muted">&copy; FPRD</p>
-		</form>
-	</div>
-
 
 	<section id="home" class="content">
-
 		<article class="box">
 			<div class="row" id="1">
 				<div class="col-md-3"><img src="img/esfera.png" id="esc1"></div>
@@ -738,6 +723,9 @@
 					</div>
 				</div>
 				<div class="row d-flex justify-content-center"><img src="img/sobre.jpg" id="sobre"></div>
+				<footer class="my-5 pt-5 text-muted text-center text-small">
+					<p class="mb-1">&copy;FPRD</p>
+				</footer>
 			</div>
 		</article>
 	</section> 
