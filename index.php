@@ -722,7 +722,7 @@
 						</p>
 					</div>
 				</div>
-				<div class="row d-flex justify-content-center"><img src="img/sobre.jpg" id="sobre"></div>
+				<div class="row d-flex justify-content-center"><img src="img/sobre.jpg" id="sobre" onclick="volta()"></div>
 				<footer class="my-5 pt-5 text-muted text-center text-small">
 					<p class="mb-1">&copy;FPRD</p>
 				</footer>
@@ -842,6 +842,11 @@
 		aparece = function(){
 			$("#mosta").hide();
 			$("#rf").fadeIn(2000);
+		}
+
+		volta = function(){
+			$("#rf").hide();
+			$("#mosta").fadeIn(2000);	
 		}
 
 	</script>
