@@ -352,6 +352,7 @@
 	<?php 
 }else{
 	?>
+	<!-- INDEX -->
 	<div class="container text-center">
 		<form class="needs-validation form-signin" action="index.php">
 
@@ -410,165 +411,6 @@
 							<div class="invalid-feedback">
 								Obrigatório
 							</div>
-						<div class="col-md-2 mb-3">
-							<label for="cal">Escolha o Cálculo</label>
-							<select class="custom-select d-block w-100" required name="cal" id="cal">
-								<option value="t">Todos</option>
-								<option value="p">Perímetro</option>
-								<option value="a">Área</option>
-								<option value="v">Volume</option>
-							</select>
-						</div>
-					</div>
-					<button class="btn btn-light btn-lg bg-light text-dark" type="submit" name="bot" value="ES">Enviar</button>
-				</form>
-			</article>
-		</section>
-
-		<section id="company2" class="content">
-			<article class="box" align="center">
-				<h2>Pirâmide de Base Quadrangular</h2>	
-				<img src="img/piramidequadrangular.png"> 
-				<!-- Fromulário para PQ -->
-				<form class="needs-validation" method="post" action="index.php"> 
-					<div class="row d-flex justify-content-center">
-						<div class="col-md-2 mb-3">
-							<label for="lb">Lado da Base</label>
-							<input type="number" min="0" name="lb" id="lb" class="form-control" placeholder="Digite em cm" required>
-							<div class="invalid-feedback">
-								Obrigatório
-							</div>
-						<div class="col-md-2 mb-3">
-							<label for="lp">Lado da Pirâmide</label>
-							<input type="number" name="lp" id="lp" min="0" class="form-control" placeholder="Digite em cm" required>
-							<div class="invalid-feedback">
-								Obrigatório
-							</div>
-						</div>
-						<!-- <div class="w-100"></div> -->
-
-						<div class="col-md-2 mb-3">
-							<label for="cal">Escolha o Cálculo</label>
-							<select class="custom-select d-block w-100" required name="cal" id="cal">
-								<option value="t">Todos</option>
-								<option value="p">Perímetro</option>
-								<option value="a">Área</option>
-								<option value="v">Volume</option>
-							</select>
-						</div>
-					</div>
-					<button class="btn btn-light btn-lg bg-light text-dark" type="submit" name="bot" value="PQ">Enviar</button>
-				</form>
-			</article>
-		</section>
-
-		<section id="company3" class="content">
-			<article class="box" align="center">
-				<h2>Cilindro</h2>	 
-				<img src="img/cilindro.png">
-				<!-- Fromulário para CL -->
-				<form class="needs-validation" method="post" action="index.php"> 
-					<div class="row d-flex justify-content-center">
-						<div class="col-md-2 mb-3">
-							<label for="h">Altura do Cilindro</label>
-							<input type="number" min="0" name="h" id="h" class="form-control" placeholder="Digite em cm" required>
-							<div class="invalid-feedback">
-								Obrigatório
-							</div>
-						</div>
-						<div class="col-md-2 mb-3">
-							<label for="r">Raio do Cilindro</label>
-							<input type="number" name="r" id="r" min="0" class="form-control" placeholder="Digite em cm" required>
-							<div class="invalid-feedback">
-								Obrigatório
-							</div>
-
-						</div>
-
-						<div class="col-md-2 mb-3">
-							<label for="cal">Escolha o Cálculo</label>
-							<select class="custom-select d-block w-100" required name="cal" id="cal">
-								<option value="t">Todos</option>
-								<option value="p">Perímetro</option>
-								<option value="a">Área</option>
-								<option value="v">Volume</option>
-							</select>
-						</div>
-					</div>
-					<button class="btn btn-light btn-lg bg-light text-dark" type="submit" name="bot" value="CL">Enviar</button>
-				</form>
-			</article>
-		</section>
-
-		<!--Para o Teteaedro -->
-		<section id="company4" class="content">
-			<article class="box" align="center">
-				<h2>Tetraedro</h2>	 
-				<img src="img/tetraedro.png">
-				<form class="needs-validation" action="index.php" method="post">
-					<div class="row d-flex justify-content-center">
-						<div class="col-md-2 mb-3">
-							<label for="l">Lado</label>
-							<input type="number" min="0" name="l" id="l" class="form-control" placeholder="Digite em cm" required>
-						</div>
-						<div class="col-md-2 mb-3">
-							<label for="cal">Escolha</label>
-							<select class="custom-select d-block w-100" required name="cal" id="cal">
-								<option value="t">Todos</option>
-								<option value="p">Perímetro</option>
-								<option value="a">Área</option>
-								<option value="v">Volume</option>
-							</select>
-						</div>
-					</div>
-					<button class="btn btn-light btn-lg bg-light text-dark" type="submit" name="bot" value="TD">Enviar</button>
-				</form>
-			</article>
-		</section>
-
-		<!--Para o Hexaedro -->
-		<section id="company5" class="content">
-			<article class="box" align="center">
-				<h2>Hexaedro</h2>	 
-				<img src="img/hexaedro.png">
-				<form class="needs-validation" action="index.php" method="post">
-					<div class="row d-flex justify-content-center">
-						<div class="col-md-2 mb-3">
-							<label for="ar">Valor da Aresta</label>
-							<input type="number" min="0" name="ar" id="ar" placeholder="digite em cm" class="form-control" required>
-							<div class="invalid-feedback">
-								Obrigatório
-							</div>
-						</div>
-						<div class="col-md-2 mb-3">
-							<label for="cal">Escolha</label>
-							<select class="custom-select d-block w-100" required name="cal" id="cal">
-								<option value="t">Todos</option>
-								<option value="p">Perímetro</option>
-								<option value="a">Área</option>
-								<option value="v">Volume</option>
-							</select>
-						</div>
-					</div>
-					<button class="btn btn-light btn-lg bg-light text-dark" type="submit" name="bot" value="HD">Enviar</button>
-				</form>
-			</article>
-		</section>
-
-		<section id="company6" class="content">
-			<article class="box" align="center">
-				<h2>Octaedro</h2>	 
-				<img src="img/octaedro.png">
-				<!-- Fromulário para OD -->
-				<form class="needs-validation" method="post" action="index.php"> 
-					<div class="row d-flex justify-content-center">
-
-						<div class="col-md-2 mb-3">
-							<label for="r">Aresta</label>
-							<input type="number" name="a" id="a"class="form-control" placeholder="Digite em cm" required>
-							<div class="invalid-feedback">
-								Obrigatório
-							</div>
 						</div>
 						<div class="col-md-2 mb-3">
 							<label for="cal">Escolha o Cálculo</label>
@@ -580,137 +422,302 @@
 							</select>
 						</div>
 					</div>
-					<button class="btn btn-light btn-lg bg-light text-dark" type="submit" name="bot" value="OD">Enviar</button>
-				</form>
-			</article>
-		</section>
+				</div>
+				<button class="btn btn-light btn-lg bg-light text-dark" type="submit" name="bot" value="ES">Enviar</button>
+			</form>
+		</article>
+	</section>
 
-		<section id="company7" class="content">
-			<article class="box" align="center">
-				<h2>Dodecaedro</h2>	 
-				<img src="img/dodecaedro.png">
-				<!-- Fromulário para DD -->
-				<form class="needs-validation" method="post" action="index.php"> 
-					<div class="row d-flex justify-content-center">
-						<div class="col-md-2 mb-3">
-							<label for="r">Lado</label>
-							<input type="number" name="l" id="l"class="form-control" placeholder="Digite em cm" required>
-							<div class="invalid-feedback">
-								Obrigatório
-							</div>
-						</div>
-
-						<div class="col-md-2 mb-3">
-							<label for="cal">Escolha o Cálculo</label>
-							<select class="custom-select d-block w-100" required name="cal" id="cal">
-								<option value="t">Todos</option>
-								<option value="p">Perímetro</option>
-								<option value="a">Área</option>
-								<option value="v">Volume</option>
-							</select>
-						</div>
-					</div>
-					<button class="btn btn-light btn-lg bg-light text-dark" type="submit" name="bot" value="DD">Enviar</button>
-				</form>
-			</article>
-		</section>
-
-		<!-- Para Icosaedro  -->
-		<section id="company8" class="content">
-			<article class="box" align="center">
-				<h2>Icosaedro</h2>	
-				<img src="img/icosaedro.png"> 
-				<form class="needs-validation" action="index.php" method="post">
-					<div class="row d-flex justify-content-center">
-						<div class="col-md-2 mb-3">
-							<label for="l">Lado</label>
-							<input type="number" min="0" name="l" id="l" placeholder="Digite em cm" class="form-control" required>
-							<div class="invalid-feedback">Obrigatório</div>
-						</div>
-						<div class="col-md-2 mb-3">
-							<label for="cal">Escolha</label>
-							<select class="custom-select d-block w-100" required name="cal" id="cal">
-								<option value="t">Todos</option>
-								<option value="p">Perímetro</option>
-								<option value="a">Área</option>
-								<option value="v">Volume</option>
-							</select>
-						</div>
-					</div>
-					<button class="btn btn-light btn-lg bg-light text-dark" type="submit" name="bot" value="ID">Enviar</button>
-				</form>
-			</article>
-		</section>  
-
-		<!-- Para Poliedro L  -->
-		<section id="company9" class="content">
-			<article class="box" align="center">
-				<h2>Poliedro L</h2>	 
-				<img src="img/poliedrol.png">
-				<form class="needs-validation" action="index.php" method="post">
-					<div class="row d-flex justify-content-center">
-						<div class="col-md-2 mb-3">
-							<label for="lc">Lado do Cubo</label>
-							<input type="number" min="0" name="lc" id="lc" placeholder="Digite em cm" class="form-control" required>
-							<div class="invalid-feedback">Obrigatório</div>
-						</div>
-						<div class="col-md-2 mb-3">
-							<label for="lr">Lado do Retângulo</label>
-							<input type="number" min="0" name="lr" id="lr" placeholder="Digite em cm" class="form-control" required>
-							<div class="invalid-feedback">Obrigatório</div>
-						</div>
-
-						<div class="col-md-2 mb-3">
-							<label for="h">Altura do Retângulo</label>
-							<input type="number" min="0" name="h" id="h" placeholder="Digite em cm" class="form-control" required>
-							<div class="invalid-feedback">Obrigatório</div>
-						</div>
-						<div class="col-md-2 mb-3">
-							<label for="cal">Escolha</label>
-							<select class="custom-select d-block w-100" required name="cal" id="cal">
-								<option value="t">Todos</option>
-								<option value="p">Perímetro</option>
-								<option value="a">Área</option>
-								<option value="v">Volume</option>
-							</select>
-						</div>
-					</div>
-					<button class="btn btn-light btn-lg bg-light text-dark" type="submit" name="bot" value="PL">Enviar</button>
-				</form>
-			</article>
-		</section>  
-
-		<!--Para o  Poliedro Mais-->
-		<section id="company10" class="content">
-			<article class="box" align="center">
-				<h2>Poliedro Mais</h2>	 
-				<img src="img/poliedromais.png">
-				<form class="needs-validation" action="index.php" method="post">
-					<div class="row d-flex justify-content-center">
-						<!-- Colocar o campo para pedir -->
-						<div class="col-md-2 mb-3">
-							<label for="a">Aresta</label>
-							<input type="number" min="0" name="a" id="a" class="form-control" placeholder="Digite em cm" required>
-						</div>
-						<div class="col-md-2 mb-3">
-							<label for="cal">Escolha</label>
-							<select class="custom-select d-block w-100" required name="cal" id="cal">
-								<option value="t">Todos</option>
-								<option value="p">Perímetro</option>
-								<option value="a">Área</option>
-								<option value="v">Volume</option>
-							</select>
-						</div>
-					</div>
-					<button class="btn btn-light btn-lg bg-light text-dark" type="submit" name="bot" value="PM">Enviar</button>
-				</form>
-			</article>
-		</section>
-
-		<section id="contact" class="content">
-			<article class="box">
-				<h2>Sobre Nós</h2>
+	<section id="company2" class="content">
+		<article class="box" align="center">
+			<h2>Pirâmide de Base Quadrangular</h2>	
+			<img src="img/piramidequadrangular.png"> 
+			<!-- Fromulário para PQ -->
+			<form class="needs-validation" method="post" action="index.php"> 
 				<div class="row d-flex justify-content-center">
+
+					<div class="col-md-2 mb-3">
+						<label for="lb">Lado da Base</label>
+						<input type="number" min="0" name="lb" id="lb" class="form-control" placeholder="Digite em cm" required>
+						<div class="invalid-feedback">
+							Obrigatório
+						</div>
+					</div>
+
+					<div class="col-md-2 mb-3">
+						<label for="lp">Lado da Pirâmide</label>
+						<input type="number" name="lp" id="lp" min="0" class="form-control" placeholder="Digite em cm" required>
+						<div class="invalid-feedback">
+							Obrigatório
+						</div>
+					</div>
+
+					<div class="col-md-2 mb-3">
+						<label for="cal">Escolha o Cálculo</label>
+						<select class="custom-select d-block w-100" required name="cal" id="cal">
+							<option value="t">Todos</option>
+							<option value="p">Perímetro</option>
+							<option value="a">Área</option>
+							<option value="v">Volume</option>
+						</select>
+					</div>
+
+				</div>
+				<button class="btn btn-light btn-lg bg-light text-dark" type="submit" name="bot" value="PQ">Enviar</button>
+			</form>
+		</article>
+	</section>
+
+	<section id="company3" class="content">
+		<article class="box" align="center">
+			<h2>Cilindro</h2>	 
+			<img src="img/cilindro.png">
+			<!-- Fromulário para CL -->
+			<form class="needs-validation" method="post" action="index.php"> 
+				<div class="row d-flex justify-content-center">
+					<div class="col-md-2 mb-3">
+						<label for="h">Altura do Cilindro</label>
+						<input type="number" min="0" name="h" id="h" class="form-control" placeholder="Digite em cm" required>
+						<div class="invalid-feedback">
+							Obrigatório
+						</div>
+					</div>
+					<div class="col-md-2 mb-3">
+						<label for="r">Raio do Cilindro</label>
+						<input type="number" name="r" id="r" min="0" class="form-control" placeholder="Digite em cm" required>
+						<div class="invalid-feedback">
+							Obrigatório
+						</div>
+
+					</div>
+					<div class="col-md-2 mb-3">
+						<label for="cal">Escolha o Cálculo</label>
+						<select class="custom-select d-block w-100" required name="cal" id="cal">
+							<option value="t">Todos</option>
+							<option value="p">Perímetro</option>
+							<option value="a">Área</option>
+							<option value="v">Volume</option>
+						</select>
+					</div>
+				</div>
+				<button class="btn btn-light btn-lg bg-light text-dark" type="submit" name="bot" value="CL">Enviar</button>
+			</form>
+		</article>
+	</section>
+
+	<!--Para o Teteaedro -->
+	<section id="company4" class="content">
+		<article class="box" align="center">
+			<h2>Tetraedro</h2>	 
+			<img src="img/tetraedro.png">
+			<form class="needs-validation" action="index.php" method="post">
+				<div class="row d-flex justify-content-center">
+					<div class="col-md-2 mb-3">
+						<label for="l">Lado</label>
+						<input type="number" min="0" name="l" id="l" class="form-control" placeholder="Digite em cm" required>
+					</div>
+					<div class="col-md-2 mb-3">
+						<label for="cal">Escolha</label>
+						<select class="custom-select d-block w-100" required name="cal" id="cal">
+							<option value="t">Todos</option>
+							<option value="p">Perímetro</option>
+							<option value="a">Área</option>
+							<option value="v">Volume</option>
+						</select>
+					</div>
+				</div>
+				<button class="btn btn-light btn-lg bg-light text-dark" type="submit" name="bot" value="TD">Enviar</button>
+			</form>
+		</article>
+	</section>
+
+	<!--Para o Hexaedro -->
+	<section id="company5" class="content">
+		<article class="box" align="center">
+			<h2>Hexaedro</h2>	 
+			<img src="img/hexaedro.png">
+			<form class="needs-validation" action="index.php" method="post">
+				<div class="row d-flex justify-content-center">
+					<div class="col-md-2 mb-3">
+						<label for="ar">Valor da Aresta</label>
+						<input type="number" min="0" name="ar" id="ar" placeholder="digite em cm" class="form-control" required>
+						<div class="invalid-feedback">
+							Obrigatório
+						</div>
+					</div>
+					<div class="col-md-2 mb-3">
+						<label for="cal">Escolha</label>
+						<select class="custom-select d-block w-100" required name="cal" id="cal">
+							<option value="t">Todos</option>
+							<option value="p">Perímetro</option>
+							<option value="a">Área</option>
+							<option value="v">Volume</option>
+						</select>
+					</div>
+				</div>
+				<button class="btn btn-light btn-lg bg-light text-dark" type="submit" name="bot" value="HD">Enviar</button>
+			</form>
+		</article>
+	</section>
+
+	<section id="company6" class="content">
+		<article class="box" align="center">
+			<h2>Octaedro</h2>	 
+			<img src="img/octaedro.png">
+			<!-- Fromulário para OD -->
+			<form class="needs-validation" method="post" action="index.php"> 
+				<div class="row d-flex justify-content-center">
+
+					<div class="col-md-2 mb-3">
+						<label for="r">Aresta</label>
+						<input type="number" name="a" id="a"class="form-control" placeholder="Digite em cm" required>
+						<div class="invalid-feedback">
+							Obrigatório
+						</div>
+					</div>
+					<div class="col-md-2 mb-3">
+						<label for="cal">Escolha o Cálculo</label>
+						<select class="custom-select d-block w-100" required name="cal" id="cal">
+							<option value="t">Todos</option>
+							<option value="p">Perímetro</option>
+							<option value="a">Área</option>
+							<option value="v">Volume</option>
+						</select>
+					</div>
+				</div>
+				<button class="btn btn-light btn-lg bg-light text-dark" type="submit" name="bot" value="OD">Enviar</button>
+			</form>
+		</article>
+	</section>
+
+	<section id="company7" class="content">
+		<article class="box" align="center">
+			<h2>Dodecaedro</h2>	 
+			<img src="img/dodecaedro.png">
+			<!-- Fromulário para DD -->
+			<form class="needs-validation" method="post" action="index.php"> 
+				<div class="row d-flex justify-content-center">
+					<div class="col-md-2 mb-3">
+						<label for="r">Lado</label>
+						<input type="number" name="l" id="l"class="form-control" placeholder="Digite em cm" required>
+						<div class="invalid-feedback">
+							Obrigatório
+						</div>
+					</div>
+
+					<div class="col-md-2 mb-3">
+						<label for="cal">Escolha o Cálculo</label>
+						<select class="custom-select d-block w-100" required name="cal" id="cal">
+							<option value="t">Todos</option>
+							<option value="p">Perímetro</option>
+							<option value="a">Área</option>
+							<option value="v">Volume</option>
+						</select>
+					</div>
+				</div>
+				<button class="btn btn-light btn-lg bg-light text-dark" type="submit" name="bot" value="DD">Enviar</button>
+			</form>
+		</article>
+	</section>
+
+	<!-- Para Icosaedro  -->
+	<section id="company8" class="content">
+		<article class="box" align="center">
+			<h2>Icosaedro</h2>	
+			<img src="img/icosaedro.png"> 
+			<form class="needs-validation" action="index.php" method="post">
+				<div class="row d-flex justify-content-center">
+					<div class="col-md-2 mb-3">
+						<label for="l">Lado</label>
+						<input type="number" min="0" name="l" id="l" placeholder="Digite em cm" class="form-control" required>
+						<div class="invalid-feedback">Obrigatório</div>
+					</div>
+					<div class="col-md-2 mb-3">
+						<label for="cal">Escolha</label>
+						<select class="custom-select d-block w-100" required name="cal" id="cal">
+							<option value="t">Todos</option>
+							<option value="p">Perímetro</option>
+							<option value="a">Área</option>
+							<option value="v">Volume</option>
+						</select>
+					</div>
+				</div>
+				<button class="btn btn-light btn-lg bg-light text-dark" type="submit" name="bot" value="ID">Enviar</button>
+			</form>
+		</article>
+	</section>  
+
+	<!-- Para Poliedro L  -->
+	<section id="company9" class="content">
+		<article class="box" align="center">
+			<h2>Poliedro L</h2>	 
+			<img src="img/poliedrol.png">
+			<form class="needs-validation" action="index.php" method="post">
+				<div class="row d-flex justify-content-center">
+					<div class="col-md-2 mb-3">
+						<label for="lc">Lado do Cubo</label>
+						<input type="number" min="0" name="lc" id="lc" placeholder="Digite em cm" class="form-control" required>
+						<div class="invalid-feedback">Obrigatório</div>
+					</div>
+					<div class="col-md-2 mb-3">
+						<label for="lr">Lado do Retângulo</label>
+						<input type="number" min="0" name="lr" id="lr" placeholder="Digite em cm" class="form-control" required>
+						<div class="invalid-feedback">Obrigatório</div>
+					</div>
+
+					<div class="col-md-2 mb-3">
+						<label for="h">Altura do Retângulo</label>
+						<input type="number" min="0" name="h" id="h" placeholder="Digite em cm" class="form-control" required>
+						<div class="invalid-feedback">Obrigatório</div>
+					</div>
+					<div class="col-md-2 mb-3">
+						<label for="cal">Escolha</label>
+						<select class="custom-select d-block w-100" required name="cal" id="cal">
+							<option value="t">Todos</option>
+							<option value="p">Perímetro</option>
+							<option value="a">Área</option>
+							<option value="v">Volume</option>
+						</select>
+					</div>
+				</div>
+				<button class="btn btn-light btn-lg bg-light text-dark" type="submit" name="bot" value="PL">Enviar</button>
+			</form>
+		</article>
+	</section>  
+
+	<!--Para o  Poliedro Mais-->
+	<section id="company10" class="content">
+		<article class="box" align="center">
+			<h2>Poliedro Mais</h2>	 
+			<img src="img/poliedromais.png">
+			<form class="needs-validation" action="index.php" method="post">
+				<div class="row d-flex justify-content-center">
+					<!-- Colocar o campo para pedir -->
+					<div class="col-md-2 mb-3">
+						<label for="a">Aresta</label>
+						<input type="number" min="0" name="a" id="a" class="form-control" placeholder="Digite em cm" required>
+					</div>
+					<div class="col-md-2 mb-3">
+						<label for="cal">Escolha</label>
+						<select class="custom-select d-block w-100" required name="cal" id="cal">
+							<option value="t">Todos</option>
+							<option value="p">Perímetro</option>
+							<option value="a">Área</option>
+							<option value="v">Volume</option>
+						</select>
+					</div>
+				</div>
+				<button class="btn btn-light btn-lg bg-light text-dark" type="submit" name="bot" value="PM">Enviar</button>
+			</form>
+		</article>
+	</section>
+
+	<section id="contact" class="content">
+		<article class="box">
+			<h2>Sobre Nós</h2>
+			<button class="btn btn-light btn-lg bg-light text-dark" type="submit" id="mosta" onclick="aparece()">Clique aqui</button>
+			<div id="rf">
+				<div class="row d-flex justify-content-center" id="rf">
 					<div class="col">
 						<label for="a">Francesco Pagani Galvão</label>
 						<p align="left">
@@ -731,41 +738,43 @@
 					</div>
 				</div>
 				<div class="row d-flex justify-content-center"><img src="img/sobre.jpg" id="sobre"></div>
-			</article>
-		</section> 
+			</div>
+		</article>
+	</section> 
 
-		<header>
-			<h1>Formas Geométricas</h1>
-			<nav>
-				<ul>
-					<li id="link-home"><a href="#home">&nbsp;Mostruário</a></li>
-					<li id="link-company1"><a href="#company1">&nbsp;Esfera</a></li>
-					<li id="link-company2"><a href="#company2">&nbsp;Pirâmide de Base Quadrangular</a></li>
-					<li id="link-company3"><a href="#company3">&nbsp;Cilindro</a></li>
-					<li id="link-company4"><a href="#company4">&nbsp;Tetraedro</a></li>
-					<li id="link-company5"><a href="#company5">&nbsp;Hexaedro</a></li>
-					<li id="link-company6"><a href="#company6">&nbsp;Octaedro</a></li>
-					<li id="link-company7"><a href="#company7">&nbsp;Dodecaedro</a></li>
-					<li id="link-company8"><a href="#company8">&nbsp;Icosaedro</a></li>
-					<li id="link-company9"><a href="#company9">&nbsp;Poliedro L</a></li>
-					<li id="link-company10"><a href="#company10">&nbsp;Poliedro Mais</a></li>
-					<li id="link-contact"><a href="#contact">&nbsp;Sobre Nós</a></li>
-				</ul>
-			</nav>
-		</header>	
+	<header>
+		<h1>Formas Geométricas</h1>
+		<nav>
+			<ul>
+				<li id="link-home"><a href="#home">&nbsp;Mostruário</a></li>
+				<li id="link-company1"><a href="#company1">&nbsp;Esfera</a></li>
+				<li id="link-company2"><a href="#company2">&nbsp;Pirâmide de Base Quadrangular</a></li>
+				<li id="link-company3"><a href="#company3">&nbsp;Cilindro</a></li>
+				<li id="link-company4"><a href="#company4">&nbsp;Tetraedro</a></li>
+				<li id="link-company5"><a href="#company5">&nbsp;Hexaedro</a></li>
+				<li id="link-company6"><a href="#company6">&nbsp;Octaedro</a></li>
+				<li id="link-company7"><a href="#company7">&nbsp;Dodecaedro</a></li>
+				<li id="link-company8"><a href="#company8">&nbsp;Icosaedro</a></li>
+				<li id="link-company9"><a href="#company9">&nbsp;Poliedro L</a></li>
+				<li id="link-company10"><a href="#company10">&nbsp;Poliedro Mais</a></li>
+				<li id="link-contact"><a href="#contact">&nbsp;Sobre Nós</a></li>
+			</ul>
+		</nav>
+	</header>	
 
-		<script type="text/javascript">
-			$("#esc1").hide();
-			$("#esc2").hide();
-			$("#esc3").hide();
-			$("#esc4").hide();
-			$("#esc5").hide();
-			$("#esc6").hide();
-			$("#esc7").hide();
-			$("#esc8").hide();
-			$("#esc9").hide();
-			$("#esc10").hide();
-			tempo = function () {
+	<script type="text/javascript">
+		$("#esc1").hide();
+		$("#esc2").hide();
+		$("#esc3").hide();
+		$("#esc4").hide();
+		$("#esc5").hide();
+		$("#esc6").hide();
+		$("#esc7").hide();
+		$("#esc8").hide();
+		$("#esc9").hide();
+		$("#esc10").hide();
+		$("#rf").hide();
+		tempo = function () {
 			//x = 0;
 
 			setTimeout(function(){
@@ -840,6 +849,11 @@
 				$("#bla").fadeIn(1000);
 			},11000);
 
+		}
+
+		aparece = function(){
+			$("#mosta").hide();
+			$("#rf").fadeIn(2000);
 		}
 
 	</script>
